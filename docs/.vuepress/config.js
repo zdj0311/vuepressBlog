@@ -17,7 +17,13 @@ module.exports = {
             children:[
                 'vue',
             ]
-        }
+        },
+        {
+            title:'V8',
+            children:[
+                'V8',
+            ]
+        },
        ]
        },
    sidebarDepth: 2,

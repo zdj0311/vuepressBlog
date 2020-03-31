@@ -1,5 +1,11 @@
 # Javascript
 
+## 微任务和宏任务
+
+**宏任务**: 整体代码script,setTimeout,setInterval
+<br/>**微任务**: Promise,process.nextTick
+<br/>只要微任务里有东西，就先执行微任务，最后执行宏任务
+
 <!-- prettier-ignore-start -->
 !!!include(docs/blog/javascript/querySelectorAll与getElementsBy区别.md)!!!
 
